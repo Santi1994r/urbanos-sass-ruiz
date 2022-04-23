@@ -46,20 +46,17 @@ div form .lupita img {
   margin: 1rem;
 }
 
-/*--------------cards para productos del catalogo------------*/
-.h5Centrado {
-  text-align: center;
-  font-size: 3rem;
-  font-weight: bold;
+.margin {
+  margin: 0.3rem;
 }
-
-.color a {
+.margin div .color a {
   color: black;
   text-decoration: none;
 }
-
-.margin {
-  margin: 0.3rem;
+.margin div .color a .h5Centrado {
+  text-align: center;
+  font-size: 3rem;
+  font-weight: bold;
 }
 
 /*--------propiedades para hacer una transformacion en las img------------*/
@@ -90,7 +87,6 @@ div form .lupita img {
   flex-direction: column;
   justify-content: center;
 }
-
 .suscribete .row div {
   font-size: 1.5rem;
   color: #fff;
