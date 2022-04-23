@@ -1,32 +1,12 @@
 
-@import "reset";
-@import "header";
-@import "carrousel";
-@import "infoindex";
-@import "cards";
-@import "newsletter";
-@import "sobrenosotros";
-
-
-
-/*--------------Footer------------*/
-.footer {
-    margin-top: 5rem;
-    background-color: #000;
-}
-.footer .row .red img{
-    width: 3rem;
-}
-.footer .row div p{
-    color: #fff;
-}
-
-.footer .row .creador {
-    font-size: 1.2em;
-}
-.footer .row div a:hover{
-    text-decoration: none;
-}
+@import "./componentes/reset";
+@import "./componentes/header";
+@import "./componentes/carrousel";
+@import "./componentes/infoindex";
+@import "./componentes/cards";
+@import "./componentes/newsletter";
+@import "./componentes/sobrenosotros";
+@import "./componentes/footer";
 
 
 /*-----------Formulario con bootstrap--------------*/

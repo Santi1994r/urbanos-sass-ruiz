@@ -106,20 +106,13 @@ div form .lupita img {
   margin-top: 5rem;
   background-color: #000;
 }
-
-.footer .row .red img {
+.footer img {
   width: 3rem;
 }
-
-.footer .row div p {
+.footer p {
   color: #fff;
 }
-
-.footer .row .creador {
-  font-size: 1.2em;
-}
-
-.footer .row div a:hover {
+.footer a:hover {
   text-decoration: none;
 }
 
