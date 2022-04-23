@@ -1,9 +1,12 @@
+/*componentes*/
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
+/* valor de padding*/
+/*valores de width de img*/
 div .widthLogo a img {
   width: 10rem;
   border-radius: 50%;
@@ -22,6 +25,7 @@ div form .lupita img {
   height: 43rem;
 }
 
+/* valor de padding*/
 /*info abajo del carrousel*/
 .infoContainer {
   display: flex;
@@ -59,6 +63,7 @@ div form .lupita img {
   font-weight: bold;
 }
 
+/*Esto no lo paso a scss porque es de otro archivo html y en la consigna me piden que solo trabaje sobre un archivo*/
 /*--------propiedades para hacer una transformacion en las img------------*/
 .zoom {
   overflow: hidden;
@@ -101,6 +106,7 @@ div form .lupita img {
   font-size: 1.2rem;
 }
 
+/*valores de width de img*/
 /*--------------Footer------------*/
 .footer {
   margin-top: 5rem;
@@ -116,6 +122,8 @@ div form .lupita img {
   text-decoration: none;
 }
 
+/*BASE*/
+/*valores de width de img*/
 /*-----------Formulario con bootstrap--------------*/
 .columna {
   display: flex;

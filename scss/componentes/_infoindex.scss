@@ -1,3 +1,5 @@
+@import "../base/variables";
+
 /*info abajo del carrousel*/
 .infoContainer {
     display: flex;
@@ -10,14 +12,14 @@
         div {
             .negrita {
                 font-size: 2rem;
-                padding-top: 3rem;
+                padding-top: $padding-top-bottom;
                 font-weight: bold;
                 font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
             }
 
             .suave {
                 font-size: 1.3rem;
-                padding-bottom: 3rem;
+                padding-bottom: $padding-top-bottom;
             }
 
             img {

@@ -1,8 +1,11 @@
+@import "../base/variables";
+@import "../base/listas";
+
 div {
     .widthLogo {
         a {
             img {
-                width: 10rem;
+                width: nth($ancho, 3);
                 border-radius: 50%;
             }
         }
@@ -17,7 +20,7 @@ div {
     form {
         .lupita {
             img {
-                width: 1.5rem;
+                width: nth($ancho, 1);
             }
         }
     }
